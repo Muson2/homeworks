@@ -104,3 +104,4 @@ class DBHelper:
             return cur.rowcount
         finally:
             conn.close()
+
