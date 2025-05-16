@@ -57,8 +57,7 @@ class UserApp(QWidget):
         self.add_btn.clicked.connect(self.add_user)
         self.update_btn.clicked.connect(self.update_user)
         self.list_btn.clicked.connect(self.show_users)
-        # self.find_btn.clicked.connect(self.find_user)  # Реализуй при необходимости
-        # self.delete_btn.clicked.connect(self.delete_user)
+
 
     def add_user(self):
         name = self.name_input.text()
